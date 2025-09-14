@@ -1,0 +1,28 @@
+# ---- Compilação C/C++ ----
+*.exe
+*.out
+*.obj
+*.o
+*.dll
+*.so
+*.dylib
+
+# ---- VSCode ----
+.vscode/
+*.code-workspace
+
+# ---- Build e temporários ----
+/build/
+/output/
+/bin/
+/*.log
+*.tmp
+*.cache
+
+# ---- Sistema Operacional ----
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store

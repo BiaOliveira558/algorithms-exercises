@@ -1,34 +1,26 @@
-#include <iostream>
-#include <vector>
+#include <bits/stdc++.h>
 
 using namespace std;
 
+// Testando instalação do compilador do c++
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        
-        vector<int> resposta = {};
-
-        return resposta;
+    int Sum(int num1, int num2) {
+        return num1 + num2;
     }
 };
 
 int main() {
-    Solution sol; // cria o objeto Solution
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
 
-    // cria um vetor de exemplo
-    vector<int> nums = {1, 2, 3, 4};
-    int target = 4;
+    int num1, num2;
+    cin >> num1 >> num2; // lê da entrada padrão
 
-    // chama a função
-    vector<int> result = sol.twoSum(nums, target);
+    Solution sol;
+    int result = sol.Sum(num1, num2);
 
-    // imprime o resultado
-    cout << "[ ";
-    for (int x : result) {
-        cout << x << " ";
-    }
-    cout << "]\n";
+    cout << result << "\n"; // imprime direto o resultado
 
     return 0;
 }
