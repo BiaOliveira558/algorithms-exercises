@@ -27,7 +27,6 @@ int main() {
             
             if(nums % 2 == 0){
                 score = score + nums;
-                //pares.push_back(nums);
             }
             else{
                 impares.push_back(nums);
@@ -43,10 +42,6 @@ int main() {
             score = score + impares.back();
 
             impares.pop_back();
-
-            //for (int k = 0; k < pares.size(); k ++){
-            //    score = score + pares[k];
-            //}
             
             if (impares.empty()){
                 cout << score << endl;
